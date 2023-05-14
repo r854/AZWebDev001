@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  color: #FFFFFF;
+  font-family: Inter;
+}
+
+/* hero */
+
+.hero{
+  background: #1F4482;
+  padding: 3rem;
+  display: flex;
+  flex: 1 1 45%;
+}
+  /* description */
+
+  .description{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 45%;
+    font-family: DM Sans;
+    padding: 2.5rem 1rem 1rem 5rem;
+  }
+
+  .description h1{
+    font-family: Rubik;
+    text-align: left;
+    letter-spacing: -0.03em;
+  }
+
+  .description h1 span{
+    color: #E9EE00;
+  }
+
+
+  .subtitle{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .subtitle span{
+    display: block;
+  }
+
+    /* input form */
+    .inputform{
+      margin-top: 3rem;
+    }
+
+    .inputform input{
+      min-height:3rem;
+      min-width: 19rem;
+      border-radius: .4rem;
+      padding-left: 1.4rem;
+    }
+
+    ::placeholder{
+      font-family: Inter;
+      font-weight: 900;
+    }
+
+    .inputform a{
+      
+      font-weight: 700;
+      background: #282828;
+      text-decoration: none;
+      padding: .7rem 2rem;
+      border-radius: .4rem;
+      margin-left: .6rem;
+
+    }
+
+    .small-text{
+      margin-top: .9rem;
+      margin-left: 2.5rem;
+      font-size: 80%;
+    }
+
+
+  /* logo */
+  .logo{
+    max-width: 12rem;
+    max-height: 12rem;
+    margin: 7rem 9rem 7rem 0;
+    box-shadow: 2rem .4rem 12.5rem 2rem #FFFFFF;
+    background: #FFFFFF;
+    border-radius: 1rem;
+  }
+
+/* footer */
+footer{
+  background: #282828;
+  display: flex;
+  flex: 1 1 45%;
+  line-height: 1.8rem;
+  padding: 3rem 3.5rem 2rem 3rem;
+  justify-content: space-between;
+}
+
+.tags{
+  margin-left: 8rem;
+  
+}
+
+.madeby {
+  align-content: flex-end;
+  text-align: right;
+  margin-right: 8rem;
+}
+
+.madeby .email{
+  margin-top: 3rem;
+}
